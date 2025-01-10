@@ -1,0 +1,1 @@
+This repository contains a Dockerfile that demonstrates a common error: the CMD instruction fails to find the "npm" command. Although npm is correctly installed, the command isn't found during runtime. The solution shows how to correctly manage the environment between the RUN and CMD stages of the Dockerfile.
